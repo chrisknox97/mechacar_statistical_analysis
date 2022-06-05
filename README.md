@@ -59,9 +59,13 @@
 
 #### When we completed T-Tests for we Lots One and Two we found P-values of approximately 1 and 0.61 and means of approximately 1500 and 1500.2 respectively. Since these P-values were both above our threshold for ‘statistical significance’ (0.05), their variance is not statistically different from the population mean. 
 
-<img src="https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_One.png" align=left, width="500">
-<img src="https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_Two.png" align=right, width="500">
+<p float="left">
+    
+<img src="https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_One.png" width="500">
+<img src="https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_Two.png" width="500">
 
+</p>
+    
 #### However, when we completed a T-Test for Lot Three, we found it to have an approximate P-value of 0.04, below the threshold for statistical significance. Additionally, its mean of 1496 was below the population mean of 1500. As a result, we could infer that Lot 3’s Suspension Coil PSI remains significantly different than the population mean. 
 
 ![LotThree](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_Three.png)
