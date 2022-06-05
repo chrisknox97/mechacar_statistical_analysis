@@ -2,15 +2,15 @@
 
 ## Overview
 
-### To perform linear regression, collect summary statistics, and run T-Tests to determine why production and manufacturing of prototype MechaCars has slowed; as well as to design additional studies concerning the MechaCar to gain insight into its financial viability.
+### To perform ``Linear Regression``, collect ``Summary Statistics``, and run ``T-Tests`` to determine why production and manufacturing of prototype MechaCars has slowed; as well as to design additional studies concerning the MechaCar to gain insight into its financial viability.
 
 ## Deliverable One: Linear Regression to Predict MPG
 
-#### In the first part of our analysis we looked at the ‘MechaCar_mpg.csv’ file, which contains 50 prototype vehicles, while examining six different variables associated with said vehicles (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, and mpg). Utilizing this dataset, we implemented RStudio’s linear regression and summary functions to determine what if any correlation these variables held in relation to a prototype’s fuel efficiency. 
+#### In the first part of our analysis we looked at the ``MechaCar_mpg.csv`` file, which contains 50 prototype vehicles, while examining six different variables associated with said vehicles (``vehicle_length``, ``vehicle_weight``, ``spoiler_angle``, ``ground_clearance``, ``AWD``, and ``mpg``). Utilizing this dataset, we implemented RStudio’s linear regression and summary functions to determine what if any correlation these variables held in relation to a prototype’s fuel efficiency. 
 
 ### Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
 
-#### In a Linear Regression Model such as this, for our P-value, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
+#### In a Linear Regression Model such as this, for our ``P-value``, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
 
     Vehicle Length (at a P-value of 2.60e-12)
     Ground Clearance (at a P-value of 5.21e-08)
@@ -19,35 +19,35 @@
 
 ### Would the Slope of the Linear Model Be Considered Zero?
 
-#### Again, to find out whether the slope of our Linear Model would have a slope of zero, we look at our P-Value. Our linear progression model provides us with an overall P-Value for the model and we can compare this value against our assumed significance of 0.05%. In this case our dataset had a P-value of 5.35e-11. Since this value is lower than the assumed significance, we can infer that the slope of our linear model is not zero and reject the null hypothesis. 
+#### Again, to find out whether the slope of our Linear Model would have a slope of zero, we look at our ``P-value``. Our linear progression model provides us with an overall P-value for the model and we can compare this value against our assumed significance of 0.05%. In this case our dataset had a P-value of 5.35e-11. Since this value is lower than the assumed significance, we can infer that the slope of our linear model is not zero and reject the ``null hypothesis``. 
 
 ![Deliverable1B](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Slope.png)
 
 ### Is this Linear Model Effective in Predicting the MPG of MechaCar Prototypes?
 
-#### Our Multiple R-Squared Coefficient is used to show what percentage of variability our dependent variable(s) can be explained by the Linear Model. Regarding this MechaCar analysis, we produced a Multiple R-Squared Coefficient of 0.7149, which means that 71.49% of the variability is explained by our model. In my opinion, this percentage is enough to conclude this model is effective in predicting the mpg of MechaCar prototypes. 
+#### Our ``Multiple R-Squared Coefficient`` is used to show what percentage of variability our dependent variable(s) can be explained by the Linear Model. Regarding this MechaCar analysis, we produced a Multiple R-Squared Coefficient of 0.7149, which means that 71.49% of the variability is explained by our model. In my opinion, this percentage is enough to conclude this model is effective in predicting the mpg of MechaCar prototypes. 
 
 ![Deliverable1C](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Slope2.png)
 
 ## Deliverable Two: Summary Statistics on Suspension Coils
 
-#### The second part of our analysis examined the ‘Suspension_Coil.csv’ file with the intent to use summary and groupby functions to create two data frames. The first would demonstrate the mean, median, variance and standard deviation of suspension coil’s ‘Pounds Per Square Inch’ (PSI) values. The second would show if and how these values differed based on their respective manufacturing lots.
+#### The second part of our analysis examined the ``Suspension_Coil.csv`` file with the intent to use summary and groupby functions to create two data frames. The first would demonstrate the ``mean``, ``median``, ``variance`` and ``standard deviation`` of suspension coil’s ‘Pounds Per Square Inch’ (PSI) values. The second would show if and how these values differed based on their respective manufacturing lots.
 
 ### Does Overall Manufacturing Meet Specifications?
 
-#### The Specifications for MechaCar Suspension Coils state that that the PSI Variance may not exceed 100 Pounds Per Square Inch. If we look at our total_summary data frame, we can see that the variance of all the lots was roughly 62.29. Since this measure did not exceed the specified limit, it meets the specifications. 
+#### The Specifications for MechaCar Suspension Coils state that that the PSI Variance may not exceed 100 Pounds Per Square Inch. If we look at our ``total_summary`` data frame, we can see that the variance of all the lots was roughly 62.29. Since this measure did not exceed the specified limit, it meets the specifications. 
 
 ![Deliverable2A](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Total_Summary.png)
 
 ### Does Each Manufacturing Lot Meet Specifications?
 
-#### Similarly, we can use our lot_summary data frame to see whether every lot meets these specifications. While Lot 1 and Lot 2 both easily meet these specifications with approximately 0.98 and 7.47 Variance respectively; unfortunately, Lot 3’s 170.27 Variance exceeds the specifications. 
+#### Similarly, we can use our ``lot_summary`` data frame to see whether every lot meets these specifications. While Lot 1 and Lot 2 both easily meet these specifications with approximately 0.98 and 7.47 Variance respectively; unfortunately, Lot 3’s 170.27 Variance exceeds the specifications. 
 
 ![Deliverable2B](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_Summary.png)
 
 ## Deliverable Three: T-Tests on Suspension Coils
 
-#### Next, we wrote a T-Test to compare the PSI of our sample dataset against a population mean of 1500 ‘Pounds Per Square Inch.’ We then wrote an additional three T-tests comparing the PSI of each individual lot against the population mean. 
+#### Next, we wrote a ``T-Test`` to compare the PSI of our sample dataset against a population mean of 1500 ‘Pounds Per Square Inch.’ We then wrote an additional three T-tests comparing the PSI of each individual lot against the population mean. 
 
 ### How Does the Total Manufacturing PSI Compare to the Population Mean?
 
@@ -112,7 +112,7 @@
 
 ### Statistical Test
 
-#### While the Statista survey suggests that all our metrics are important to consumers, we do not know how much each metric impacts a vehicle’s purchase price. As such we can create a Linear Regression Model to show the correlation between each vehicle’s specified metrics and the overall cost of ownership of said vehicle. If MechaCar prototypes provide equitable metrics to its competition at an equitable cost, then we cannot reject the null hypothesis. However, if MechaCars provided equitable metrics but at a higher cost (or the inverse) we would be inclined to reject our null hypothesis. 
+#### While the Statista survey suggests that all our metrics are important to consumers, we do not know how much each metric impacts a vehicle’s purchase price. As such we can create a Linear Regression Model to show the ``correlation`` between each vehicle’s specified metrics and the overall cost of ownership of said vehicle. If MechaCar prototypes provide equitable metrics to its competition at an equitable cost, then we cannot reject the null hypothesis. However, if MechaCars provided equitable metrics but at a higher cost (or the inverse) we would be inclined to reject our null hypothesis. 
 
 ### Data Required
 
