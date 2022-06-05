@@ -25,37 +25,37 @@
 
 ## Deliverable Two: Summary Statistics on Suspension Coils
 
-### The second part of our analysis examined the ‘Suspension_Coil.csv’ file with the intent to use summary and groupby functions to create two data frames. The first would demonstrate the mean, median, variance and standard deviation of suspension coil’s ‘Pounds Per Square Inch’ (PSI) values. The second would show if and how these values differed based on their respective manufacturing lots. 
+#### The second part of our analysis examined the ‘Suspension_Coil.csv’ file with the intent to use summary and groupby functions to create two data frames. The first would demonstrate the mean, median, variance and standard deviation of suspension coil’s ‘Pounds Per Square Inch’ (PSI) values. The second would show if and how these values differed based on their respective manufacturing lots. 
 
-* Does Overall Manufacturing Meet Specifications?
+### Does Overall Manufacturing Meet Specifications?
 
-### The Specifications for MechaCar Suspension Coils state that that the PSI Variance may not exceed 100 Pounds Per Square Inch. If we look at our total_summary data frame, we can see that the variance of all the lots was roughly 62.29. Since this measure did not exceed the specified limit, it meets the specifications. 
+#### The Specifications for MechaCar Suspension Coils state that that the PSI Variance may not exceed 100 Pounds Per Square Inch. If we look at our total_summary data frame, we can see that the variance of all the lots was roughly 62.29. Since this measure did not exceed the specified limit, it meets the specifications. 
 
-* Does Each Manufacturing Lot Meet Specifications?
+### Does Each Manufacturing Lot Meet Specifications?
 
-### Similarly, we can use our lot_summary data frame to see whether every lot meets these specifications. While Lot 1 and Lot 2 both easily meet these specifications with approximately 0.98 and 7.47 Variance respectively; unfortunately, Lot 3’s 170.27 Variance exceeds the specifications. 
+#### Similarly, we can use our lot_summary data frame to see whether every lot meets these specifications. While Lot 1 and Lot 2 both easily meet these specifications with approximately 0.98 and 7.47 Variance respectively; unfortunately, Lot 3’s 170.27 Variance exceeds the specifications. 
 
 ## Deliverable Three: T-Tests on Suspension Coils
 
-### Next, we wrote a T-Test to compare the PSI of our sample dataset against a population mean of 1500 ‘Pounds Per Square Inch.’ We then wrote an additional three T-tests comparing the PSI of each individual lot against the population mean. 
+#### Next, we wrote a T-Test to compare the PSI of our sample dataset against a population mean of 1500 ‘Pounds Per Square Inch.’ We then wrote an additional three T-tests comparing the PSI of each individual lot against the population mean. 
 
-* How Does the Total Manufacturing PSI Compare to the Population Mean?
+### How Does the Total Manufacturing PSI Compare to the Population Mean?
 
-### When completing a T-Test of all our lots we found the mean of this dataset to be 1498.78, slightly lower than the population mean of 1500. It’s P-value was approximately 0.06, above the threshold of what is considered statistically significant (0.05). 
+#### When completing a T-Test of all our lots we found the mean of this dataset to be 1498.78, slightly lower than the population mean of 1500. It’s P-value was approximately 0.06, above the threshold of what is considered statistically significant (0.05). 
 
-* How Do the Individual Lot PSIs Compare to the Population Mean?
+### How Do the Individual Lot PSIs Compare to the Population Mean?
 
-### When we completed T-Tests for we Lots One and Two we found P-values of approximately 1 and 0.61 and means of approximately 1500 and 1500.2 respectively. Since these P-values were both above our threshold for ‘statistical significance’ (0.05), their variance is not statistically different from the population mean. 
+#### When we completed T-Tests for we Lots One and Two we found P-values of approximately 1 and 0.61 and means of approximately 1500 and 1500.2 respectively. Since these P-values were both above our threshold for ‘statistical significance’ (0.05), their variance is not statistically different from the population mean. 
 
-### However, when we completed a T-Test for Lot Three, we found it to have an approximate P-value of 0.04, below the threshold for statistical significance. Additionally, its mean of 1496 was below the population mean of 1500. As a result, we could infer that Lot 3’s Suspension Coil PSI remains significantly different than the population mean. 
+#### However, when we completed a T-Test for Lot Three, we found it to have an approximate P-value of 0.04, below the threshold for statistical significance. Additionally, its mean of 1496 was below the population mean of 1500. As a result, we could infer that Lot 3’s Suspension Coil PSI remains significantly different than the population mean. 
 
 ## Deliverable Four: Study Design- MechaCar Vs. Competition
 
-### While the MechaCar prototype shows promise, we must be realistic in comparing its viability against the competition. As such, we decided to compare design a study to compare the MechaCar against its competition using metrics deemed desirable to consumers. 
+#### While the MechaCar prototype shows promise, we must be realistic in comparing its viability against the competition. As such, we decided to compare design a study to compare the MechaCar against its competition using metrics deemed desirable to consumers. 
 
-* What Do Customers Want in a Car?
+### What Do Customers Want in a Car?
 
-### To select my metrics I used a 2018 Statista Global Consumer Survey as a baseline of consumer interest. It found that the following were the most important factors in a car purchase:
+#### To select my metrics I used a 2018 Statista Global Consumer Survey as a baseline of consumer interest. It found that the following were the most important factors in a car purchase:
 
     Safety
     Fuel Efficiency
@@ -68,28 +68,34 @@
     Spaciousness
     Preferred Make
 
-* Selecting Our Metrics
+### Selecting Our Metrics
 
-### While not all metrics are easily studied and analyzed, we can create a study based around Statista’s survey; comparing our selected metrics against comparable makes and models over the last three years (a timeframe used by J.D. Power to assess vehicle quality). The following are some of the metrics we would examine:
+#### While not all metrics are easily studied and analyzed, we can create a study based around Statista’s survey; comparing our selected metrics against comparable makes and models over the last three years (a timeframe used by J.D. Power to assess vehicle quality). The following are some of the metrics we would examine:
 
     National Highway Traffic Safety Administration (NHTSA) Safety Rating
     Highway & City Fuel Efficiencies
     Average Annual Maintenance Cost/Dependability
     Current Cost of Ownership/Purchase
 
-* Null & Alternative Hypothesis
+### Null & Alternative Hypothesis
 
-### Null Hypothesis: MechaCar Prototypes represents a fair value (safety, fuel efficiency, average annual maintenance cost) compared to its current competition (based on its current cost of ownership). 
+#### Null Hypothesis
 
-### Alternative Hypothesis: MechaCar Prototypes DOES NOT represent a fair value (safety, fuel efficiency, average annual maintenance cost) compared to its current competition (based on its current cost of ownership).
+        MechaCar Prototypes represents a fair value (safety, fuel efficiency, average annual maintenance cost) 
+        compared to its current competition (based on its current cost of ownership). 
 
-* Statistical Test
+#### Alternative Hypothesis
 
-### While the Statista survey suggests that all our metrics are important to consumers, we do not know how much each metric impacts a vehicle’s purchase price. As such we can create a Linear Regression Model to show the correlation between each vehicle’s specified metrics and the overall cost of ownership of said vehicle. If MechaCar prototypes provide equitable metrics to its competition at an equitable cost, then we cannot reject the null hypothesis. However, if MechaCars provided equitable metrics but at a higher cost (or the inverse) we would be inclined to reject our null hypothesis. 
+        MechaCar Prototypes DOES NOT represent a fair value (safety, fuel efficiency, average annual maintenance cost) 
+        compared to its current competition (based on its current cost of ownership).
 
-* Data Required
+### Statistical Test
 
-### To complete such our statistical analysis, we would need the following:
+#### While the Statista survey suggests that all our metrics are important to consumers, we do not know how much each metric impacts a vehicle’s purchase price. As such we can create a Linear Regression Model to show the correlation between each vehicle’s specified metrics and the overall cost of ownership of said vehicle. If MechaCar prototypes provide equitable metrics to its competition at an equitable cost, then we cannot reject the null hypothesis. However, if MechaCars provided equitable metrics but at a higher cost (or the inverse) we would be inclined to reject our null hypothesis. 
+
+### Data Required
+
+#### To complete such our statistical analysis, we would need the following:
 
     Overall NHTSA Safety Ratings (Ranked on a 5-Star Scale)
     United States Department of Energy Fuel Economy Ratings (MPG)
@@ -98,4 +104,4 @@
 
 ## Conclusion
 
-### MechaCar’s production troubles seem undeniably linked to its third manufacturing lot, whose PSI values for its suspension cables remained significantly different from the population mean. Now that the issue has been located, hopefully the company can resolve the issue and additional studies with further implicate its financial viability on the auto market. 
+#### MechaCar’s production troubles seem undeniably linked to its third manufacturing lot, whose PSI values for its suspension cables remained significantly different from the population mean. Now that the issue has been located, hopefully the company can resolve the issue and additional studies with further implicate its financial viability on the auto market. 
