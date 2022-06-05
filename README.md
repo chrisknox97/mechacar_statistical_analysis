@@ -31,15 +31,21 @@
 
 ## Deliverable Two: Summary Statistics on Suspension Coils
 
-#### The second part of our analysis examined the ‘Suspension_Coil.csv’ file with the intent to use summary and groupby functions to create two data frames. The first would demonstrate the mean, median, variance and standard deviation of suspension coil’s ‘Pounds Per Square Inch’ (PSI) values. The second would show if and how these values differed based on their respective manufacturing lots. 
+#### The second part of our analysis examined the ‘Suspension_Coil.csv’ file with the intent to use summary and groupby functions to create two data frames. The first would demonstrate the mean, median, variance and standard deviation of suspension coil’s ‘Pounds Per Square Inch’ (PSI) values. The second would show if and how these values differed based on their respective manufacturing lots.
+
+![Deliverable2A](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Total_Summary.png)
 
 ### Does Overall Manufacturing Meet Specifications?
 
 #### The Specifications for MechaCar Suspension Coils state that that the PSI Variance may not exceed 100 Pounds Per Square Inch. If we look at our total_summary data frame, we can see that the variance of all the lots was roughly 62.29. Since this measure did not exceed the specified limit, it meets the specifications. 
 
+![Deliverable2A](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Total_Summary.png)
+
 ### Does Each Manufacturing Lot Meet Specifications?
 
 #### Similarly, we can use our lot_summary data frame to see whether every lot meets these specifications. While Lot 1 and Lot 2 both easily meet these specifications with approximately 0.98 and 7.47 Variance respectively; unfortunately, Lot 3’s 170.27 Variance exceeds the specifications. 
+
+![Deliverable2B](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Lot_Summary.png)
 
 ## Deliverable Three: T-Tests on Suspension Coils
 
