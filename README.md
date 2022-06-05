@@ -8,7 +8,7 @@
 
 ### In the first part of our analysis we looked at the ‘MechaCar_mpg.csv’ file, which contains 50 prototype vehicles, while examining six different variables associated with said vehicles (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, and mpg). Utilizing this dataset, we implemented RStudio’s linear regression and summary functions to determine what if any correlation these variables held in relation to a prototype’s fuel efficiency. 
 
-** Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
+* Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
 
 ### In a Linear Regression Model such as this, for our P-value, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
 
@@ -58,25 +58,25 @@
 
 ### To select my metrics I used a 2018 Statista Global Consumer Survey as a baseline of consumer interest. It found that the following were the most important factors in a car purchase:
 
-   * Safety
-   * Fuel Efficiency
-   * High Quality
-   * Good Warranty/Customer Service
-   * Suitability For Everyday Use
-   * High Driving Comfort
-   * Design
-   * Low Price
-   * Spaciousness
-   * Preferred Make
+    Safety
+    Fuel Efficiency
+    High Quality
+    Good Warranty/Customer Service
+    Suitability For Everyday Use
+    High Driving Comfort
+    Design
+    Low Price
+    Spaciousness
+    Preferred Make
 
 * Selecting Our Metrics
 
 ### While not all metrics are easily studied and analyzed, we can create a study based around Statista’s survey; comparing our selected metrics against comparable makes and models over the last three years (a timeframe used by J.D. Power to assess vehicle quality). The following are some of the metrics we would examine:
 
-   * National Highway Traffic Safety Administration (NHTSA) Safety Rating
-   * Highway & City Fuel Efficiencies
-   * Average Annual Maintenance Cost/Dependability
-   * Current Cost of Ownership/Purchase
+    National Highway Traffic Safety Administration (NHTSA) Safety Rating
+    Highway & City Fuel Efficiencies
+    Average Annual Maintenance Cost/Dependability
+    Current Cost of Ownership/Purchase
 
 * Null & Alternative Hypothesis
 
@@ -92,10 +92,10 @@
 
 ### To complete such our statistical analysis, we would need the following:
 
-   * Overall NHTSA Safety Ratings (Ranked on a 5-Star Scale)
-   * United States Department of Energy Fuel Economy Ratings (MPG)
-   * J.D. Power Vehicle Dependability Studies
-   * Average Vehicle Purchase Cost from Consumer Reports Study
+    Overall NHTSA Safety Ratings (Ranked on a 5-Star Scale)
+    United States Department of Energy Fuel Economy Ratings (MPG)
+    J.D. Power Vehicle Dependability Studies
+    Average Vehicle Purchase Cost from Consumer Reports Study
 
 ## Conclusion
 
