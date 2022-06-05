@@ -15,6 +15,8 @@
     Vehicle Length (at a P-value of 2.60e-12)
     Ground Clearance (at a P-value of 5.21e-08)
 
+![Deliverable1A](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Summary.png)
+
 ### Would the Slope of the Linear Model Be Considered Zero?
 
 #### Again, to find out whether the slope of our Linear Model would have a slope of zero, we look at our P-Value. Our linear progression model provides us with an overall P-Value for the model and we can compare this value against our assumed significance of 0.05%. In this case our dataset had a P-value of 5.35e-11. Since this value is lower than the assumed significance, we can infer that the slope of our linear model is not zero and reject the null hypothesis. 
