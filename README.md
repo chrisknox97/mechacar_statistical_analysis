@@ -6,23 +6,22 @@
 
 ## Deliverable One: Linear Regression to Predict MPG
 
-### In the first part of our analysis we looked at the ‘MechaCar_mpg.csv’ file, which contains 50 prototype vehicles, while examining six different variables associated with said vehicles (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, and mpg). Utilizing this dataset, we implemented RStudio’s linear regression and summary functions to determine what if any correlation these variables held in relation to a prototype’s fuel efficiency. 
+#### In the first part of our analysis we looked at the ‘MechaCar_mpg.csv’ file, which contains 50 prototype vehicles, while examining six different variables associated with said vehicles (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, and mpg). Utilizing this dataset, we implemented RStudio’s linear regression and summary functions to determine what if any correlation these variables held in relation to a prototype’s fuel efficiency. 
 
-* Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
+### Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
 
-### In a Linear Regression Model such as this, for our P-value, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
+#### In a Linear Regression Model such as this, for our P-value, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
 
     Vehicle Length (at a P-value of 2.60e-12)
     Ground Clearance (at a P-value of 5.21e-08)
 
-* Would the Slope of the Linear Model Be Considered Zero?
+### Would the Slope of the Linear Model Be Considered Zero?
 
-### Again, to find out whether the slope of our Linear Model would have a slope of zero, we look at our P-Value. Our linear progression model provides us with an overall P-Value for the model and we can compare this value against our assumed significance of 0.05%. In this case our dataset had a P-value of 5.35e-11. Since this value is lower than the assumed significance, we can infer that the slope of our linear model is not zero and reject the null hypothesis. 
+#### Again, to find out whether the slope of our Linear Model would have a slope of zero, we look at our P-Value. Our linear progression model provides us with an overall P-Value for the model and we can compare this value against our assumed significance of 0.05%. In this case our dataset had a P-value of 5.35e-11. Since this value is lower than the assumed significance, we can infer that the slope of our linear model is not zero and reject the null hypothesis. 
 
-* Is this Linear Model Effective in Predicting the MPG of MechaCar Prototypes?
+### Is this Linear Model Effective in Predicting the MPG of MechaCar Prototypes?
 
-### Our Multiple R-Squared Coefficient is used to show what percentage of variability our dependent variable(s) can be explained by the Linear Model. Regarding this MechaCar analysis, we produced a Multiple R-Squared Coefficient of 0.7149, which means that 71.49% of the variability is explained by our model. In my opinion, this percentage is enough to conclude this model is effective in predicting the mpg of MechaCar prototypes. 
-
+#### Our Multiple R-Squared Coefficient is used to show what percentage of variability our dependent variable(s) can be explained by the Linear Model. Regarding this MechaCar analysis, we produced a Multiple R-Squared Coefficient of 0.7149, which means that 71.49% of the variability is explained by our model. In my opinion, this percentage is enough to conclude this model is effective in predicting the mpg of MechaCar prototypes. 
 
 ## Deliverable Two: Summary Statistics on Suspension Coils
 
