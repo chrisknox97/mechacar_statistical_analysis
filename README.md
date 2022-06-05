@@ -21,9 +21,13 @@
 
 #### Again, to find out whether the slope of our Linear Model would have a slope of zero, we look at our P-Value. Our linear progression model provides us with an overall P-Value for the model and we can compare this value against our assumed significance of 0.05%. In this case our dataset had a P-value of 5.35e-11. Since this value is lower than the assumed significance, we can infer that the slope of our linear model is not zero and reject the null hypothesis. 
 
+![Deliverable1B](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Slope.png)
+
 ### Is this Linear Model Effective in Predicting the MPG of MechaCar Prototypes?
 
 #### Our Multiple R-Squared Coefficient is used to show what percentage of variability our dependent variable(s) can be explained by the Linear Model. Regarding this MechaCar analysis, we produced a Multiple R-Squared Coefficient of 0.7149, which means that 71.49% of the variability is explained by our model. In my opinion, this percentage is enough to conclude this model is effective in predicting the mpg of MechaCar prototypes. 
+
+![Deliverable1C](https://github.com/chrisknox97/mechacar_statistical_analysis/blob/main/PNGs/Slope2.png)
 
 ## Deliverable Two: Summary Statistics on Suspension Coils
 
