@@ -8,7 +8,7 @@
 
 ### In the first part of our analysis we looked at the ‘MechaCar_mpg.csv’ file, which contains 50 prototype vehicles, while examining six different variables associated with said vehicles (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD, and mpg). Utilizing this dataset, we implemented RStudio’s linear regression and summary functions to determine what if any correlation these variables held in relation to a prototype’s fuel efficiency. 
 
-* Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
+** Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
 
 ### In a Linear Regression Model such as this, for our P-value, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
 
