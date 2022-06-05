@@ -76,7 +76,7 @@
 
 ### What Do Customers Want in a Car?
 
-#### To select my metrics I used a 2018 Statista Global Consumer Survey as a baseline of consumer interest. It found that the following were the most important factors in a car purchase:
+#### To select my metrics I used a [2018 Statista Global Consumer Survey](https://www.statista.com/chart/13075/most-important-factors-when-buying-a-car/) as a baseline of consumer interest. It found that the following were the most important factors in a car purchase:
 
     Safety
     Fuel Efficiency
