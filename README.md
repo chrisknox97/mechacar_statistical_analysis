@@ -72,7 +72,7 @@
 
 ## Deliverable Four: Study Design- MechaCar Vs. Competition
 
-#### While the MechaCar prototype shows promise, we must be realistic in comparing its viability against the competition. As such, we decided to compare design a study to compare the MechaCar against its competition using metrics deemed desirable to consumers. 
+#### While the MechaCar prototype shows promise, we must be realistic in comparing its viability against the competition. As such, we decided to design a study to compare the MechaCar against its competition using metrics deemed desirable to consumers. 
 
 ### What Do Customers Want in a Car?
 
