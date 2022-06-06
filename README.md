@@ -57,7 +57,7 @@
 
 ### How Do the Individual Lot PSIs Compare to the Population Mean?
 
-#### When we completed T-Tests for we Lots One and Two we found P-values of approximately 1 and 0.61 and means of approximately 1500 and 1500.2 respectively. Since these P-values were both above our threshold for ‘statistical significance’ (0.05), their variance is not statistically different from the population mean. 
+#### When we completed T-Tests for Lots One and Two we found P-values of approximately 1 and 0.61 and means of approximately 1500 and 1500.2 respectively. Since these P-values were both above our threshold for ‘statistical significance’ (0.05), their variance is not statistically different from the population mean. 
 
 <p float="left">
     
