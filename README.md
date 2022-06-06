@@ -112,7 +112,9 @@
 
 ### Statistical Test
 
-#### While the Statista survey suggests that all our metrics are important to consumers, we do not know how much each metric impacts a vehicle’s purchase price. As such we can create a Linear Regression Model to show the ``correlation`` between each vehicle’s specified metrics and the overall cost of ownership of said vehicle. If MechaCar prototypes provide equitable metrics to its competition at an equitable cost, then we cannot reject the null hypothesis. However, if MechaCars provided equitable metrics but at a higher cost (or the inverse) we would be inclined to reject our null hypothesis. 
+#### While the Statista survey suggests that all our metrics are important to consumers, we do not know how much each metric impacts a vehicle’s purchase price. As such we can create a Linear Regression Model to show the ``correlation`` between each vehicle’s specified metrics and the overall cost of ownership of said vehicle. 
+
+#### If MechaCar prototypes provide equitable metrics to its competition at an equitable cost, then we cannot reject the null hypothesis. However, if MechaCars provided equitable metrics but at a higher cost (or the inverse) we would be inclined to reject our null hypothesis. 
 
 ### Data Required
 
