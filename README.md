@@ -127,4 +127,4 @@
 
 ## Conclusion
 
-#### MechaCar’s production troubles seem undeniably linked to its third manufacturing lot, whose PSI values for its suspension cables remained significantly different from the population mean. Now that the issue has been located, hopefully the company can resolve the issue and additional studies with further implicate its financial viability on the auto market. 
+#### MechaCar’s production troubles seem undeniably linked to its third manufacturing lot, whose PSI values for its suspension cables remained significantly different than the population mean. Now that the issue has been located, hopefully it can be resolved and additional studies will further implicate its financial viability of the product on the crowded auto market. 
