@@ -10,7 +10,7 @@
 
 ### Which Variables/Coefficients Provide Non-Random Amounts of Variance to the Dataset’s MPG Values?
 
-#### In a Linear Regression Model such as this, for our ``P-value``, our assumed significance would be 0.05%. So, when conducting this analysis if any variable showed a P-value lower than that are assumed significance, there would be reason to assumed it held a non-random amount of variance. As such, we found two variables which held non-random variance:
+#### In a Linear Regression Model such as this, for our ``P-value``, our assumed significance would be 0.05%. So if any variable held a P-value lower than that of our assumed significance, there would be reason to believe it held a non-random amount of variance. As such, we found two variables which held non-random variance:
 
     Vehicle Length (at a P-value of 2.60e-12)
     Ground Clearance (at a P-value of 5.21e-08)
