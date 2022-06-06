@@ -118,7 +118,7 @@
 
 ### Data Required
 
-#### To complete such our statistical analysis, we would need the following:
+#### To complete our statistical analysis, we would need the following:
 
     Overall NHTSA Safety Ratings (Ranked on a 5-Star Scale)
     United States Department of Energy Fuel Economy Ratings (MPG)
