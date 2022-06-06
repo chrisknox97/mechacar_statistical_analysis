@@ -102,12 +102,12 @@
 
 #### Null Hypothesis
 
-        MechaCar Prototypes represents a fair value (safety, fuel efficiency, average annual maintenance cost) 
+        MechaCar Prototypes represent a fair value (safety, fuel efficiency, average annual maintenance cost) 
         compared to its current competition (based on its current cost of ownership). 
 
 #### Alternative Hypothesis
 
-        MechaCar Prototypes DOES NOT represent a fair value (safety, fuel efficiency, average annual maintenance cost) 
+        MechaCar Prototypes DO NOT represent a fair value (safety, fuel efficiency, average annual maintenance cost) 
         compared to its current competition (based on its current cost of ownership).
 
 ### Statistical Test
